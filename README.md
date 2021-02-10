@@ -101,8 +101,12 @@ let inventory = [{"id":1,"car_make":"Lincoln","car_model":"Navigator","car_year"
 
 {"id":50,"car_make":"Lincoln","car_model":"Town Car","car_year":1999}];
 
+
 //Code1
+
 //Problem1.js
+
+
 for (i = 0; i < inventory.length; i++) {
 if(inventory[i]['id'] === 33){
 console.log("Car 33 is a "+inventory[i]['car_year']+" " +inventory[i]['car_make'] +" "+ inventory[i]['car_model'] );
@@ -112,7 +116,10 @@ break;
 
 
 //Code2
+
 //Problem2.js
+
+
 for (i = 0; i < inventory.length; i++) {
 
 if(inventory[i]['id'] === -1){
@@ -125,8 +132,12 @@ break;
 
 }
 
+
 //Code3
+
 //Problem3.js
+
+
 let carModels = []
 
 for (let i = 0; i < inventory.length; i++){
@@ -139,8 +150,12 @@ carModels.sort();
 
 console.log(carModels);
 
+
 //Code4
+
 //Problem4.js
+
+
 let carYear = []
 
 for (let i = 0; i < inventory.length; i++){
@@ -151,8 +166,12 @@ carYear[i] = inventory[i]["car_year"];
 
 console.log(carYear);
 
+
 //Code5
+
 //Problem5.js
+
+
 olderCars = [];
 
 for (i = 0; i < inventory.length; i++) {
@@ -169,8 +188,12 @@ console.log(olderCars);
 
 console.log(olderCars.length);
 
+
 //Code6
+
 //Problem6.js
+
+
 let BMWAndAudi= [];
 
 for (i = 0; i < inventory.length; i++) {
